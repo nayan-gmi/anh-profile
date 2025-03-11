@@ -1,0 +1,42 @@
+uuid: d1532e73-25a8-4cc4-b9ec-415e40c81665
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.responsive_banner
+    - field.field.paragraph.image_gallery.field_block_description
+    - field.field.paragraph.image_gallery.field_block_heading
+    - field.field.paragraph.image_gallery.field_block_sub_heading
+    - field.field.paragraph.image_gallery.field_cta_button
+    - field.field.paragraph.image_gallery.field_gallery
+    - field.field.paragraph.image_gallery.field_hide_this_block
+    - field.field.paragraph.image_gallery.field_image
+    - field.field.paragraph.image_gallery.field_image_for_mobile
+    - field.field.paragraph.image_gallery.field_logo
+    - field.field.paragraph.image_gallery.field_view_mode
+    - paragraphs.paragraphs_type.image_gallery
+  module:
+    - view_mode_switch
+id: paragraph.image_gallery.responsive_banner
+targetEntityType: paragraph
+bundle: image_gallery
+mode: responsive_banner
+content:
+  field_view_mode:
+    type: view_mode_switch_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  field_block_description: true
+  field_block_heading: true
+  field_block_sub_heading: true
+  field_cta_button: true
+  field_gallery: true
+  field_hide_this_block: true
+  field_image: true
+  field_image_for_mobile: true
+  field_logo: true
+  search_api_excerpt: true

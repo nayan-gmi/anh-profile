@@ -1,0 +1,21 @@
+uuid: 3e066eb2-940c-42bf-8b26-9a4c4f0a14a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_hide_this_block
+    - paragraphs.paragraphs_type.smpl_cntnt_blk_reptr
+id: paragraph.smpl_cntnt_blk_reptr.field_hide_this_block
+field_name: field_hide_this_block
+entity_type: paragraph
+bundle: smpl_cntnt_blk_reptr
+label: 'Hide this block'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

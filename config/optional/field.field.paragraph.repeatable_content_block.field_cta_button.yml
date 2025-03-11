@@ -1,0 +1,23 @@
+uuid: 22b1e438-0871-427c-bc32-164c1867a1b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_cta_button
+    - paragraphs.paragraphs_type.repeatable_content_block
+  module:
+    - link
+id: paragraph.repeatable_content_block.field_cta_button
+field_name: field_cta_button
+entity_type: paragraph
+bundle: repeatable_content_block
+label: 'CTA Button'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 2
+  link_type: 17
+field_type: link

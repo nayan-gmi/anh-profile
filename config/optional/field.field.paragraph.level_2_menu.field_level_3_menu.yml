@@ -1,0 +1,37 @@
+uuid: 157ff371-db5a-4ac2-aea6-5d22f7801068
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_level_3_menu
+    - paragraphs.paragraphs_type.level_2_menu
+    - paragraphs.paragraphs_type.level_3_menu
+  module:
+    - entity_reference_revisions
+id: paragraph.level_2_menu.field_level_3_menu
+field_name: field_level_3_menu
+entity_type: paragraph
+bundle: level_2_menu
+label: 'Level 3 Menu'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      level_3_menu: level_3_menu
+    negate: 0
+    target_bundles_drag_drop:
+      level_1_menu:
+        weight: 4
+        enabled: false
+      level_2_menu:
+        weight: 5
+        enabled: false
+      level_3_menu:
+        weight: 6
+        enabled: true
+field_type: entity_reference_revisions

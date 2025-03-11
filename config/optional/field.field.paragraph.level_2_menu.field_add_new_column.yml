@@ -1,0 +1,21 @@
+uuid: 69de8543-450b-4805-9cc9-34c78777c880
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_add_new_column
+    - paragraphs.paragraphs_type.level_2_menu
+id: paragraph.level_2_menu.field_add_new_column
+field_name: field_add_new_column
+entity_type: paragraph
+bundle: level_2_menu
+label: 'Add a new column after this (Applicable only for mega menu)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

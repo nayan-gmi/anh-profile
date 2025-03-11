@@ -1,0 +1,11 @@
+uuid: f359c93c-182d-488b-a95e-5b8002bcc4a1
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.awards_slider
+label: 'Awards slider'
+description: ''
+targetEntityType: paragraph
+cache: true

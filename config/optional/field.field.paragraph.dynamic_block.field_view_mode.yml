@@ -1,0 +1,34 @@
+uuid: 5f61e2ab-4668-4bc6-b3f5-5f2f83040ba0
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.bus_cat
+    - core.entity_view_mode.paragraph.career_job_detail
+    - core.entity_view_mode.paragraph.homepage_latest_news
+    - core.entity_view_mode.paragraph.news_list
+    - core.entity_view_mode.paragraph.split_content
+    - core.entity_view_mode.paragraph.search_result
+    - field.storage.paragraph.field_view_mode
+    - paragraphs.paragraphs_type.dynamic_block
+  module:
+    - view_mode_switch
+id: paragraph.dynamic_block.field_view_mode
+field_name: field_view_mode
+entity_type: paragraph
+bundle: dynamic_block
+label: 'View mode'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_view_modes:
+    bus_cat: bus_cat
+    career_job_detail: career_job_detail
+    homepage_latest_news: homepage_latest_news
+    news_list: news_list
+    search_result: search_result
+    split_content: split_content
+field_type: view_mode_switch

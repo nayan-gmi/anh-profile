@@ -1,0 +1,70 @@
+uuid: 5184d36a-1205-4ee0-8fe3-06d1f3b3c01d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_info
+    - paragraphs.paragraphs_type.business_address
+    - paragraphs.paragraphs_type.simple_content_block
+  module:
+    - entity_reference_revisions
+id: paragraph.business_address.field_info
+field_name: field_info
+entity_type: paragraph
+bundle: business_address
+label: Info
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      simple_content_block: simple_content_block
+    negate: 0
+    target_bundles_drag_drop:
+      address:
+        weight: 15
+        enabled: false
+      advanced_content_block:
+        weight: 16
+        enabled: false
+      business_address:
+        weight: 17
+        enabled: false
+      dynamic_block:
+        weight: 18
+        enabled: false
+      gallery_item:
+        weight: 19
+        enabled: false
+      image_banner:
+        weight: 20
+        enabled: false
+      image_gallery:
+        weight: 21
+        enabled: false
+      level_1_menu:
+        weight: 22
+        enabled: false
+      level_2_menu:
+        weight: 23
+        enabled: false
+      level_3_menu:
+        weight: 24
+        enabled: false
+      repeatable_content_block:
+        weight: 25
+        enabled: false
+      simple_content_block:
+        weight: 26
+        enabled: true
+      smpl_cntnt_blk_reptr:
+        weight: 27
+        enabled: false
+      video_banner:
+        weight: 28
+        enabled: false
+field_type: entity_reference_revisions

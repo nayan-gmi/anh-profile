@@ -1,0 +1,24 @@
+uuid: 812afd2b-6bda-44a4-9f47-def397bae747
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.storage.paragraph.field_view_mode
+    - paragraphs.paragraphs_type.image_banner
+  module:
+    - view_mode_switch
+id: paragraph.image_banner.field_view_mode
+field_name: field_view_mode
+entity_type: paragraph
+bundle: image_banner
+label: 'View mode'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_view_modes:
+    preview: preview
+field_type: view_mode_switch

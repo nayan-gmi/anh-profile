@@ -1,0 +1,11 @@
+uuid: d5b79b63-a9c9-4314-bd2c-0a53d35aa80a
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.bus_cat_related
+label: 'Business category - Related'
+description: ''
+targetEntityType: paragraph
+cache: true

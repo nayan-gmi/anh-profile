@@ -1,0 +1,10 @@
+uuid: 79d26b93-f835-48a1-8e19-abe427b41151
+langcode: en
+status: true
+dependencies: {  }
+id: simple_content_block
+label: 'Simple Content Block'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

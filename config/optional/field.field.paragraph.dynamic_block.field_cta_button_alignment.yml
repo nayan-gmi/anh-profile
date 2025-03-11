@@ -1,0 +1,21 @@
+uuid: 3034f94d-a974-4ad8-b211-4e6325796f1b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_cta_button_alignment
+    - paragraphs.paragraphs_type.dynamic_block
+  module:
+    - options
+id: paragraph.dynamic_block.field_cta_button_alignment
+field_name: field_cta_button_alignment
+entity_type: paragraph
+bundle: dynamic_block
+label: 'CTA button alignment'
+description: 'Default should be left align.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

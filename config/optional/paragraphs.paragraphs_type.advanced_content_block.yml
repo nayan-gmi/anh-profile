@@ -1,0 +1,10 @@
+uuid: 15de214c-3d8d-41b3-be1f-2695fc148030
+langcode: en
+status: true
+dependencies: {  }
+id: advanced_content_block
+label: 'Advanced content block'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,11 @@
+uuid: b96d6fd2-9468-48c2-938e-62e55476efa6
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.business_fold_2
+label: 'Business - Fold 2 with image gallery'
+description: ''
+targetEntityType: paragraph
+cache: true

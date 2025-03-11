@@ -1,0 +1,65 @@
+uuid: 03e71d05-d40f-4375-949a-606324238f63
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.home_fold5_gal_item
+    - field.field.paragraph.image_gallery.field_block_description
+    - field.field.paragraph.image_gallery.field_block_heading
+    - field.field.paragraph.image_gallery.field_block_sub_heading
+    - field.field.paragraph.image_gallery.field_cta_button
+    - field.field.paragraph.image_gallery.field_gallery
+    - field.field.paragraph.image_gallery.field_hide_this_block
+    - field.field.paragraph.image_gallery.field_image
+    - field.field.paragraph.image_gallery.field_image_for_mobile
+    - field.field.paragraph.image_gallery.field_logo
+    - field.field.paragraph.image_gallery.field_view_mode
+    - image.style.webp
+    - paragraphs.paragraphs_type.image_gallery
+  module:
+    - svg_image
+id: paragraph.image_gallery.home_fold5_gal_item
+targetEntityType: paragraph
+bundle: image_gallery
+mode: home_fold5_gal_item
+content:
+  field_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: webp
+      image_loading:
+        attribute: lazy
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_image_for_mobile:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: webp
+      image_loading:
+        attribute: lazy
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  field_block_description: true
+  field_block_heading: true
+  field_block_sub_heading: true
+  field_cta_button: true
+  field_gallery: true
+  field_hide_this_block: true
+  field_logo: true
+  field_view_mode: true
+  search_api_excerpt: true

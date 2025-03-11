@@ -1,0 +1,56 @@
+uuid: df17b261-6585-42ed-b7a6-72b6a44cc4a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.video_banner.field_desktop_video
+    - field.field.paragraph.video_banner.field_enable_autoplay
+    - field.field.paragraph.video_banner.field_enable_loop
+    - field.field.paragraph.video_banner.field_mobile_video
+    - field.field.paragraph.video_banner.field_view_mode
+    - paragraphs.paragraphs_type.video_banner
+  module:
+    - file
+    - view_mode_switch
+id: paragraph.video_banner.default
+targetEntityType: paragraph
+bundle: video_banner
+mode: default
+content:
+  field_desktop_video:
+    type: file_generic
+    weight: 0
+    region: content
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+  field_enable_autoplay:
+    type: boolean_checkbox
+    weight: 2
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_enable_loop:
+    type: boolean_checkbox
+    weight: 3
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_mobile_video:
+    type: file_generic
+    weight: 1
+    region: content
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+  field_view_mode:
+    type: view_mode_switch
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

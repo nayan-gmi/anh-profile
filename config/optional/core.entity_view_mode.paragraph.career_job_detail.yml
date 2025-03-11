@@ -1,0 +1,11 @@
+uuid: a3d3ac17-e185-4047-acce-ab6b3f51f971
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.career_job_detail
+label: 'Career - Job details'
+description: ''
+targetEntityType: paragraph
+cache: true

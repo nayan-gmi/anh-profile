@@ -1,0 +1,21 @@
+uuid: b7c83905-80d8-47ea-a9c2-238576654fde
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_hide_this_block
+    - paragraphs.paragraphs_type.dynamic_block
+id: paragraph.dynamic_block.field_hide_this_block
+field_name: field_hide_this_block
+entity_type: paragraph
+bundle: dynamic_block
+label: 'Hide this block'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,44 @@
+uuid: b550b23c-8877-4fe0-9f25-512348d3a98e
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.home_fold2
+    - field.field.paragraph.address.field_block_description
+    - field.field.paragraph.address.field_block_heading
+    - field.field.paragraph.address.field_email
+    - field.field.paragraph.address.field_fax
+    - field.field.paragraph.address.field_hide_this_block
+    - field.field.paragraph.address.field_phone
+    - field.field.paragraph.address.field_view_mode
+    - field.field.paragraph.address.field_website_url
+    - paragraphs.paragraphs_type.address
+  module:
+    - text
+id: paragraph.address.home_fold2
+targetEntityType: paragraph
+bundle: address
+mode: home_fold2
+content:
+  field_block_description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_block_heading:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_email: true
+  field_fax: true
+  field_hide_this_block: true
+  field_phone: true
+  field_view_mode: true
+  field_website_url: true
+  search_api_excerpt: true

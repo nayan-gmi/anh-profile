@@ -1,0 +1,11 @@
+uuid: 974cc4b1-020c-44fc-857e-5bd31c827b81
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.home_fold5_gal
+label: 'Homepage Fold5 - Gallery'
+description: ''
+targetEntityType: paragraph
+cache: true

@@ -1,0 +1,11 @@
+uuid: 3343ec6d-8292-40b5-90e6-6113bd6f6d40
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.split_content
+label: 'Split content'
+description: ''
+targetEntityType: paragraph
+cache: true

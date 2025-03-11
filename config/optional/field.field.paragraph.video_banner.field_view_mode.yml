@@ -1,0 +1,24 @@
+uuid: afa0342f-bf1a-4341-9bfa-c1b077fd137c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.responsive_banner
+    - field.storage.paragraph.field_view_mode
+    - paragraphs.paragraphs_type.video_banner
+  module:
+    - view_mode_switch
+id: paragraph.video_banner.field_view_mode
+field_name: field_view_mode
+entity_type: paragraph
+bundle: video_banner
+label: 'View mode'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_view_modes:
+    responsive_banner: responsive_banner
+field_type: view_mode_switch

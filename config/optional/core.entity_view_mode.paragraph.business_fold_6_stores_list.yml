@@ -1,0 +1,11 @@
+uuid: 48cdb5a1-e376-45a1-9123-513cccc2a981
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.business_fold_6_stores_list
+label: 'Business - Fold 6 - Stores List'
+description: ''
+targetEntityType: paragraph
+cache: true

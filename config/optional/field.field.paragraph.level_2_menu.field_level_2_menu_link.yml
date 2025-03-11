@@ -1,0 +1,19 @@
+uuid: ffe0313e-2ed2-49fe-94d6-4bf88ca69c06
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_level_2_menu_link
+    - paragraphs.paragraphs_type.level_2_menu
+id: paragraph.level_2_menu.field_level_2_menu_link
+field_name: field_level_2_menu_link
+entity_type: paragraph
+bundle: level_2_menu
+label: 'Level 2 Menu Link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

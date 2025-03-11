@@ -1,0 +1,54 @@
+uuid: ec04822c-92fa-4f76-a1a4-9e100f940c08
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.level_1_menu.field_is_mega_menu
+    - field.field.paragraph.level_1_menu.field_level_1_menu_link
+    - field.field.paragraph.level_1_menu.field_level_1_menu_text
+    - field.field.paragraph.level_1_menu.field_level_2_menu
+    - paragraphs.paragraphs_type.level_1_menu
+  module:
+    - entity_reference_revisions
+id: paragraph.level_1_menu.default
+targetEntityType: paragraph
+bundle: level_1_menu
+mode: default
+content:
+  field_is_mega_menu:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_level_1_menu_link:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_level_1_menu_text:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_level_2_menu:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  search_api_excerpt: true

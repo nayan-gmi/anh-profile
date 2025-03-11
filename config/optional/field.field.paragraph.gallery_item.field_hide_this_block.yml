@@ -1,0 +1,21 @@
+uuid: 5efc07aa-8ad9-4265-a7ee-71962e92c5fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_hide_this_block
+    - paragraphs.paragraphs_type.gallery_item
+id: paragraph.gallery_item.field_hide_this_block
+field_name: field_hide_this_block
+entity_type: paragraph
+bundle: gallery_item
+label: 'Hide this block'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

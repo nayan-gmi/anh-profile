@@ -1,0 +1,19 @@
+uuid: f278eadc-cb5a-40f1-9605-e05a72856de0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_level_1_menu_text
+    - paragraphs.paragraphs_type.level_1_menu
+id: paragraph.level_1_menu.field_level_1_menu_text
+field_name: field_level_1_menu_text
+entity_type: paragraph
+bundle: level_1_menu
+label: 'Level 1 Menu Text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

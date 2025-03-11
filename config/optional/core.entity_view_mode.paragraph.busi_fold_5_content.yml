@@ -1,0 +1,11 @@
+uuid: a5a8b296-2c22-44f4-bd64-71cf0457fc40
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.busi_fold_5_content
+label: 'Business - Fold 5 - Content'
+description: ''
+targetEntityType: paragraph
+cache: true

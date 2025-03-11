@@ -1,0 +1,58 @@
+uuid: 1e63cb95-7b16-4206-ba3b-f8b6ae511420
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_repeatable_block
+    - paragraphs.paragraphs_type.repeatable_content_block
+    - paragraphs.paragraphs_type.smpl_cntnt_blk_reptr
+  module:
+    - entity_reference_revisions
+id: paragraph.repeatable_content_block.field_repeatable_block
+field_name: field_repeatable_block
+entity_type: paragraph
+bundle: repeatable_content_block
+label: 'Repeatable Block'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      smpl_cntnt_blk_reptr: smpl_cntnt_blk_reptr
+    negate: 0
+    target_bundles_drag_drop:
+      advanced_content_block:
+        weight: 11
+        enabled: false
+      dynamic_block:
+        weight: 12
+        enabled: false
+      image_banner:
+        weight: 13
+        enabled: false
+      level_1_menu:
+        weight: 14
+        enabled: false
+      level_2_menu:
+        weight: 15
+        enabled: false
+      level_3_menu:
+        weight: 16
+        enabled: false
+      repeatable_content_block:
+        weight: 17
+        enabled: false
+      simple_content_block:
+        weight: 18
+        enabled: false
+      smpl_cntnt_blk_reptr:
+        weight: 19
+        enabled: true
+      video_banner:
+        weight: 20
+        enabled: false
+field_type: entity_reference_revisions

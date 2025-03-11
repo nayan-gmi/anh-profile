@@ -1,0 +1,24 @@
+uuid: 619e4fcf-ee09-4b0a-8229-2117413e0562
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_block_heading
+    - filter.format.full_html
+    - paragraphs.paragraphs_type.simple_content_block
+  module:
+    - text
+id: paragraph.simple_content_block.field_block_heading
+field_name: field_block_heading
+entity_type: paragraph
+bundle: simple_content_block
+label: 'Block Heading'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - full_html
+field_type: text

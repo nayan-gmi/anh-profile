@@ -1,0 +1,24 @@
+uuid: 9f75fcca-cce1-4d43-bc73-926415ecf4c5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_block_description
+    - filter.format.full_html
+    - paragraphs.paragraphs_type.smpl_cntnt_blk_reptr
+  module:
+    - text
+id: paragraph.smpl_cntnt_blk_reptr.field_block_description
+field_name: field_block_description
+entity_type: paragraph
+bundle: smpl_cntnt_blk_reptr
+label: 'Block Description'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - full_html
+field_type: text_long

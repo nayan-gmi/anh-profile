@@ -1,0 +1,69 @@
+uuid: fc60df45-f810-43e5-ba63-16d69614d031
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.business_fold_2_gallery_item
+    - field.field.paragraph.gallery_item.field_hide_this_block
+    - field.field.paragraph.gallery_item.field_image
+    - field.field.paragraph.gallery_item.field_image_for_mobile
+    - field.field.paragraph.gallery_item.field_view_mode
+    - image.style.webp
+    - paragraphs.paragraphs_type.gallery_item
+  module:
+    - svg_image
+    - view_mode_switch
+id: paragraph.gallery_item.business_fold_2_gallery_item
+targetEntityType: paragraph
+bundle: gallery_item
+mode: business_fold_2_gallery_item
+content:
+  field_hide_this_block:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: webp
+      image_loading:
+        attribute: lazy
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_image_for_mobile:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: webp
+      image_loading:
+        attribute: lazy
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_view_mode:
+    type: view_mode_switch_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  search_api_excerpt: true

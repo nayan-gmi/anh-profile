@@ -1,0 +1,10 @@
+uuid: 82f82f45-c31d-4069-9365-af198f21b26b
+langcode: en
+status: true
+dependencies: {  }
+id: smpl_cntnt_blk_reptr
+label: 'Simple Content Block Repeater'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

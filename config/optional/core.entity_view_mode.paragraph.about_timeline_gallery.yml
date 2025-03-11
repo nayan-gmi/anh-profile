@@ -1,0 +1,11 @@
+uuid: 2b8dada3-cac0-4c48-8d52-30cb40f1dfb5
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.about_timeline_gallery
+label: 'About - Timeline gallery'
+description: ''
+targetEntityType: paragraph
+cache: true

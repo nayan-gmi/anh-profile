@@ -1,0 +1,19 @@
+uuid: d1357dd7-968c-47e3-84ad-8e96ff1b24ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_level_3_menu_text
+    - paragraphs.paragraphs_type.level_3_menu
+id: paragraph.level_3_menu.field_level_3_menu_text
+field_name: field_level_3_menu_text
+entity_type: paragraph
+bundle: level_3_menu
+label: 'Level 3 Menu Text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

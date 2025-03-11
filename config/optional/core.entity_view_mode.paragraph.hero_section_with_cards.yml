@@ -1,0 +1,11 @@
+uuid: ae859941-5fb1-4957-903a-25d0b8c2931b
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.hero_section_with_cards
+label: 'Hero section with cards'
+description: ''
+targetEntityType: paragraph
+cache: true

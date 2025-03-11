@@ -1,0 +1,11 @@
+uuid: 06911038-45df-4438-91b9-f9d439832117
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.business_category_fold_2
+label: 'Business Category - Fold 2'
+description: ''
+targetEntityType: paragraph
+cache: true

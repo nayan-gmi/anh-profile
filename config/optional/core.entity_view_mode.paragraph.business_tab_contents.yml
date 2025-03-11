@@ -1,0 +1,11 @@
+uuid: c068c1fc-15db-409e-b0ad-7b2f8e7fadc5
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.business_tab_contents
+label: 'Business Tab - Contents'
+description: ''
+targetEntityType: paragraph
+cache: true

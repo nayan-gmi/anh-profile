@@ -1,0 +1,11 @@
+uuid: 0d91e633-8ecf-4aac-83c5-1e352173599c
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.search_result
+label: 'Search Result'
+description: ''
+targetEntityType: paragraph
+cache: true

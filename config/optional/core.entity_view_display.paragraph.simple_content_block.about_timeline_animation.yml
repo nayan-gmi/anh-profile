@@ -1,0 +1,105 @@
+uuid: 5b2a179f-66e2-46d6-ad41-3378561eed0d
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.about_timeline_animation
+    - field.field.paragraph.simple_content_block.field_block_description
+    - field.field.paragraph.simple_content_block.field_block_heading
+    - field.field.paragraph.simple_content_block.field_block_sub_heading
+    - field.field.paragraph.simple_content_block.field_cta_button
+    - field.field.paragraph.simple_content_block.field_hide_this_block
+    - field.field.paragraph.simple_content_block.field_image
+    - field.field.paragraph.simple_content_block.field_image_alignment
+    - field.field.paragraph.simple_content_block.field_image_for_mobile
+    - field.field.paragraph.simple_content_block.field_view_mode
+    - image.style.webp
+    - paragraphs.paragraphs_type.simple_content_block
+  module:
+    - extra_image_field_classes
+    - link
+    - text
+    - view_mode_switch
+id: paragraph.simple_content_block.about_timeline_animation
+targetEntityType: paragraph
+bundle: simple_content_block
+mode: about_timeline_animation
+content:
+  field_block_description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_block_heading:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_block_sub_heading:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_cta_button:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 150
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_hide_this_block:
+    type: boolean
+    label: hidden
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_image:
+    type: extra_image_field_classes
+    label: hidden
+    settings:
+      image_style: webp
+      image_link: ''
+      extra_image_field_classes: banner-for-desktop
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_image_for_mobile:
+    type: extra_image_field_classes
+    label: hidden
+    settings:
+      image_style: webp
+      image_link: ''
+      extra_image_field_classes: banner-for-mobile
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_view_mode:
+    type: view_mode_switch_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  field_image_alignment: true
+  field_wrapper_extra_class: true
+  search_api_excerpt: true

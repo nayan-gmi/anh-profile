@@ -1,0 +1,64 @@
+uuid: 34dd25bf-b78e-4445-8015-fecf9b2fe2a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_gallery
+    - paragraphs.paragraphs_type.gallery_item
+    - paragraphs.paragraphs_type.image_gallery
+  module:
+    - entity_reference_revisions
+id: paragraph.image_gallery.field_gallery
+field_name: field_gallery
+entity_type: paragraph
+bundle: image_gallery
+label: Gallery
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      gallery_item: gallery_item
+    negate: 0
+    target_bundles_drag_drop:
+      advanced_content_block:
+        weight: 13
+        enabled: false
+      dynamic_block:
+        weight: 14
+        enabled: false
+      gallery_item:
+        weight: 15
+        enabled: true
+      image_banner:
+        weight: 16
+        enabled: false
+      image_gallery:
+        weight: 17
+        enabled: false
+      level_1_menu:
+        weight: 18
+        enabled: false
+      level_2_menu:
+        weight: 19
+        enabled: false
+      level_3_menu:
+        weight: 20
+        enabled: false
+      repeatable_content_block:
+        weight: 21
+        enabled: false
+      simple_content_block:
+        weight: 22
+        enabled: false
+      smpl_cntnt_blk_reptr:
+        weight: 23
+        enabled: false
+      video_banner:
+        weight: 24
+        enabled: false
+field_type: entity_reference_revisions

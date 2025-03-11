@@ -1,0 +1,11 @@
+uuid: cb79614a-af83-4d99-8a08-293e5fd8ffce
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.bus_cat
+label: 'Business categories'
+description: ''
+targetEntityType: paragraph
+cache: true

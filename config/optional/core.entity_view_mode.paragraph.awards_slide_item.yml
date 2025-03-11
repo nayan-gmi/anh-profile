@@ -1,0 +1,11 @@
+uuid: 4c9ffb10-51e1-4a4b-bc7c-98c52181fccd
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.awards_slide_item
+label: 'Awards slide item'
+description: ''
+targetEntityType: paragraph
+cache: true

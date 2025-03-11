@@ -1,0 +1,24 @@
+uuid: 9311dac1-f05b-42e3-a0d7-70cbed589e11
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_block_heading
+    - filter.format.full_html
+    - paragraphs.paragraphs_type.smpl_cntnt_blk_reptr
+  module:
+    - text
+id: paragraph.smpl_cntnt_blk_reptr.field_block_heading
+field_name: field_block_heading
+entity_type: paragraph
+bundle: smpl_cntnt_blk_reptr
+label: 'Block Heading'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - full_html
+field_type: text

@@ -1,0 +1,24 @@
+uuid: a4836a4c-c3b0-4e20-9ed9-234e3c80ccd6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_website_url
+    - filter.format.full_html
+    - paragraphs.paragraphs_type.address
+  module:
+    - text
+id: paragraph.address.field_website_url
+field_name: field_website_url
+entity_type: paragraph
+bundle: address
+label: 'Website URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - full_html
+field_type: text

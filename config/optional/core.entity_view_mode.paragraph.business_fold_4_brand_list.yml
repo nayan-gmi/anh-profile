@@ -1,0 +1,11 @@
+uuid: 19b5dfb2-7b3d-4543-98f8-ca2040e1cb68
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.business_fold_4_brand_list
+label: 'Business - Fold 4 - Brand list'
+description: ''
+targetEntityType: paragraph
+cache: true

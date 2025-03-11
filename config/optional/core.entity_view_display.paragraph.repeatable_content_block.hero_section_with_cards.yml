@@ -1,0 +1,122 @@
+uuid: 7efb4392-8e89-4c2d-a78a-cb0d1f86d5ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.hero_section_with_cards
+    - field.field.paragraph.repeatable_content_block.field_block_description
+    - field.field.paragraph.repeatable_content_block.field_block_heading
+    - field.field.paragraph.repeatable_content_block.field_block_sub_heading
+    - field.field.paragraph.repeatable_content_block.field_cta_button
+    - field.field.paragraph.repeatable_content_block.field_cta_button_alignment
+    - field.field.paragraph.repeatable_content_block.field_hide_this_block
+    - field.field.paragraph.repeatable_content_block.field_image
+    - field.field.paragraph.repeatable_content_block.field_image_for_mobile
+    - field.field.paragraph.repeatable_content_block.field_repeatable_block
+    - field.field.paragraph.repeatable_content_block.field_view_mode
+    - image.style.webp
+    - paragraphs.paragraphs_type.repeatable_content_block
+  module:
+    - entity_reference_revisions
+    - extra_image_field_classes
+    - link
+    - options
+    - text
+    - view_mode_switch
+id: paragraph.repeatable_content_block.hero_section_with_cards
+targetEntityType: paragraph
+bundle: repeatable_content_block
+mode: hero_section_with_cards
+content:
+  field_block_description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_block_heading:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_block_sub_heading:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_cta_button:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 150
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_cta_button_alignment:
+    type: list_key
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_hide_this_block:
+    type: boolean
+    label: hidden
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_image:
+    type: extra_image_field_classes
+    label: hidden
+    settings:
+      image_style: webp
+      image_link: ''
+      extra_image_field_classes: 'empower-sec-bg w-100 banner-for-desktop'
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_image_for_mobile:
+    type: extra_image_field_classes
+    label: hidden
+    settings:
+      image_style: webp
+      image_link: ''
+      extra_image_field_classes: 'empower-sec-bg w-100 banner-for-mobile'
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_repeatable_block:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_view_mode:
+    type: view_mode_switch_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  search_api_excerpt: true

@@ -1,0 +1,63 @@
+uuid: fdfad750-9b48-4800-9cfc-b76341716eea
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.responsive_banner
+    - field.field.paragraph.video_banner.field_desktop_video
+    - field.field.paragraph.video_banner.field_enable_autoplay
+    - field.field.paragraph.video_banner.field_enable_loop
+    - field.field.paragraph.video_banner.field_mobile_video
+    - field.field.paragraph.video_banner.field_view_mode
+    - paragraphs.paragraphs_type.video_banner
+  module:
+    - file
+    - view_mode_switch
+id: paragraph.video_banner.responsive_banner
+targetEntityType: paragraph
+bundle: video_banner
+mode: responsive_banner
+content:
+  field_desktop_video:
+    type: file_url_plain
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_enable_autoplay:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_enable_loop:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_mobile_video:
+    type: file_url_plain
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_view_mode:
+    type: view_mode_switch_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+hidden:
+  search_api_excerpt: true

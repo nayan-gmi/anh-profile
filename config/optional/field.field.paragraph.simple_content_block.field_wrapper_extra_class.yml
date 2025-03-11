@@ -1,0 +1,19 @@
+uuid: d647073d-3ec4-4b0b-9083-6078e1f3d8e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_wrapper_extra_class
+    - paragraphs.paragraphs_type.simple_content_block
+id: paragraph.simple_content_block.field_wrapper_extra_class
+field_name: field_wrapper_extra_class
+entity_type: paragraph
+bundle: simple_content_block
+label: 'Wrapper extra class'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

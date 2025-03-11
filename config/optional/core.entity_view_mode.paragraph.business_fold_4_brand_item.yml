@@ -1,0 +1,11 @@
+uuid: df4063e0-5231-45db-bc2c-8f1e075b9bf8
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.business_fold_4_brand_item
+label: 'Business - Fold 4 - Brand item'
+description: ''
+targetEntityType: paragraph
+cache: true

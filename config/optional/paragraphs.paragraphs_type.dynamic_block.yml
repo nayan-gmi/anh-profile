@@ -1,0 +1,10 @@
+uuid: 5979f286-9c86-45b6-b035-10292972c52e
+langcode: en
+status: true
+dependencies: {  }
+id: dynamic_block
+label: 'Dynamic Block'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,92 @@
+uuid: 4f09394a-d385-454b-bc58-74db8781c3aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.homepage_latest_news
+    - field.field.paragraph.dynamic_block.field_block
+    - field.field.paragraph.dynamic_block.field_block_description
+    - field.field.paragraph.dynamic_block.field_block_heading
+    - field.field.paragraph.dynamic_block.field_block_sub_heading
+    - field.field.paragraph.dynamic_block.field_cta_button
+    - field.field.paragraph.dynamic_block.field_cta_button_alignment
+    - field.field.paragraph.dynamic_block.field_hide_this_block
+    - field.field.paragraph.dynamic_block.field_view_mode
+    - paragraphs.paragraphs_type.dynamic_block
+  module:
+    - block_field
+    - link
+    - options
+    - text
+    - view_mode_switch
+id: paragraph.dynamic_block.homepage_latest_news
+targetEntityType: paragraph
+bundle: dynamic_block
+mode: homepage_latest_news
+content:
+  field_block:
+    type: block_field
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_block_description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_block_heading:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_block_sub_heading:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_cta_button:
+    type: link
+    label: above
+    settings:
+      trim_length: 150
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_cta_button_alignment:
+    type: list_key
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_hide_this_block:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_view_mode:
+    type: view_mode_switch_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  search_api_excerpt: true

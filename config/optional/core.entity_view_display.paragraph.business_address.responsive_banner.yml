@@ -1,0 +1,30 @@
+uuid: 3f2e521f-9110-43b3-a1d7-2d72f9cda22c
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.responsive_banner
+    - field.field.paragraph.business_address.field_address
+    - field.field.paragraph.business_address.field_hide_this_block
+    - field.field.paragraph.business_address.field_info
+    - field.field.paragraph.business_address.field_view_mode
+    - paragraphs.paragraphs_type.business_address
+  module:
+    - view_mode_switch
+id: paragraph.business_address.responsive_banner
+targetEntityType: paragraph
+bundle: business_address
+mode: responsive_banner
+content:
+  field_view_mode:
+    type: view_mode_switch_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  field_address: true
+  field_hide_this_block: true
+  field_info: true
+  search_api_excerpt: true

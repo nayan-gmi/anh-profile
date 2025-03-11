@@ -1,0 +1,11 @@
+uuid: abbd6c4a-5d22-4b98-8da2-49cf264a9bb7
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.home_fold2
+label: 'Homepage Fold2'
+description: ''
+targetEntityType: paragraph
+cache: true

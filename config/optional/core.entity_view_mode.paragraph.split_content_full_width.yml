@@ -1,0 +1,11 @@
+uuid: fbee77bf-d5a6-422c-bf87-a02fc9718464
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.split_content_full_width
+label: 'Split content full width'
+description: ''
+targetEntityType: paragraph
+cache: true

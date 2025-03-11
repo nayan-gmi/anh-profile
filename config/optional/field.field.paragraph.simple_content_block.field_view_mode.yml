@@ -1,0 +1,50 @@
+uuid: 4bd41107-3aa6-41d8-97db-0863adc41f75
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.about_timeline_animation
+    - core.entity_view_mode.paragraph.awards_slide_item
+    - core.entity_view_mode.paragraph.bus_fold3_proj_slide_itm
+    - core.entity_view_mode.paragraph.bus_list_btm_cta_itm
+    - core.entity_view_mode.paragraph.busi_fold_5_content
+    - core.entity_view_mode.paragraph.business_fold_4_brand_item
+    - core.entity_view_mode.paragraph.career_card
+    - core.entity_view_mode.paragraph.career_job_detail_item
+    - core.entity_view_mode.paragraph.home_careers
+    - core.entity_view_mode.paragraph.home_fold3_vert_sld_itm
+    - core.entity_view_mode.paragraph.homepage_fold4_map
+    - core.entity_view_mode.paragraph.split_content
+    - core.entity_view_mode.paragraph.split_content_full_width
+    - core.entity_view_mode.paragraph.standard_content
+    - field.storage.paragraph.field_view_mode
+    - paragraphs.paragraphs_type.simple_content_block
+  module:
+    - view_mode_switch
+id: paragraph.simple_content_block.field_view_mode
+field_name: field_view_mode
+entity_type: paragraph
+bundle: simple_content_block
+label: 'View mode'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_view_modes:
+    about_timeline_animation: about_timeline_animation
+    awards_slide_item: awards_slide_item
+    bus_fold3_proj_slide_itm: bus_fold3_proj_slide_itm
+    bus_list_btm_cta_itm: bus_list_btm_cta_itm
+    busi_fold_5_content: busi_fold_5_content
+    business_fold_4_brand_item: business_fold_4_brand_item
+    career_card: career_card
+    career_job_detail_item: career_job_detail_item
+    home_careers: home_careers
+    home_fold3_vert_sld_itm: home_fold3_vert_sld_itm
+    homepage_fold4_map: homepage_fold4_map
+    split_content: split_content
+    split_content_full_width: split_content_full_width
+    standard_content: standard_content
+field_type: view_mode_switch

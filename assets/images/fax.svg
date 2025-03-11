@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23.076" height="23.076" viewBox="0 0 23.076 23.076">
+  <g id="fax" transform="translate(-19.25 -19.25)">
+    <path id="Path_103847" data-name="Path 103847" d="M23.657,148.456H21.828A1.829,1.829,0,0,1,20,146.628v-12.8A1.829,1.829,0,0,1,21.828,132h1.828a1.829,1.829,0,0,1,1.828,1.828v12.8A1.829,1.829,0,0,1,23.657,148.456Z" transform="translate(0 -106.88)" fill="none" stroke="#4180d7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <line id="Line_354" data-name="Line 354" transform="translate(30.788 32.788)" fill="none" stroke="#4180d7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <line id="Line_355" data-name="Line 355" transform="translate(34.788 32.788)" fill="none" stroke="#4180d7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <line id="Line_356" data-name="Line 356" transform="translate(37.788 32.788)" fill="none" stroke="#4180d7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <line id="Line_357" data-name="Line 357" transform="translate(30.788 35.788)" fill="none" stroke="#4180d7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <line id="Line_358" data-name="Line 358" transform="translate(34.788 35.788)" fill="none" stroke="#4180d7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <line id="Line_359" data-name="Line 359" transform="translate(37.788 35.788)" fill="none" stroke="#4180d7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="Path_103848" data-name="Path 103848" d="M140,212h13.348a2.743,2.743,0,0,1,2.743,2.743v5.485a2.743,2.743,0,0,1-2.743,2.743H140" transform="translate(-114.515 -183.223)" fill="none" stroke="#4180d7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="Path_103849" data-name="Path 103849" d="M216,25.485V21.828A1.829,1.829,0,0,1,217.829,20h5.485a1.829,1.829,0,0,1,1.829,1.828v3.657" transform="translate(-187.04)" fill="none" stroke="#4180d7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <line id="Line_360" data-name="Line 360" x2="2" transform="translate(32.788 23.788)" fill="none" stroke="#4180d7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+  </g>
+</svg>

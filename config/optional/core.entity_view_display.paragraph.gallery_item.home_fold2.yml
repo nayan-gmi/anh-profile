@@ -1,0 +1,39 @@
+uuid: 2f02cb9c-047e-470d-8225-30986031ed20
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.home_fold2
+    - field.field.paragraph.gallery_item.field_hide_this_block
+    - field.field.paragraph.gallery_item.field_image
+    - field.field.paragraph.gallery_item.field_image_for_mobile
+    - field.field.paragraph.gallery_item.field_view_mode
+    - paragraphs.paragraphs_type.gallery_item
+  module:
+    - view_mode_switch
+id: paragraph.gallery_item.home_fold2
+targetEntityType: paragraph
+bundle: gallery_item
+mode: home_fold2
+content:
+  field_hide_this_block:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_view_mode:
+    type: view_mode_switch_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden:
+  field_image: true
+  field_image_for_mobile: true
+  search_api_excerpt: true

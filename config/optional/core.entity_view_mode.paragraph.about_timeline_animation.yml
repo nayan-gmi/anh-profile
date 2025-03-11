@@ -1,0 +1,11 @@
+uuid: 9b34ddf3-9741-4fba-bad5-f785253dcac3
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.about_timeline_animation
+label: 'About - Timeline animation'
+description: ''
+targetEntityType: paragraph
+cache: true

@@ -1,0 +1,24 @@
+uuid: ab91e72c-5746-410f-9b41-72f6c1eb1225
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.business_fold_5_address_wrapper
+    - field.storage.paragraph.field_view_mode
+    - paragraphs.paragraphs_type.business_address
+  module:
+    - view_mode_switch
+id: paragraph.business_address.field_view_mode
+field_name: field_view_mode
+entity_type: paragraph
+bundle: business_address
+label: 'View mode'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_view_modes:
+    business_fold_5_address_wrapper: business_fold_5_address_wrapper
+field_type: view_mode_switch

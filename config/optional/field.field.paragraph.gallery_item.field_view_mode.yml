@@ -1,0 +1,26 @@
+uuid: c55d5587-246c-4807-a520-539f5205c4af
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.business_fold_2_gallery_item
+    - core.entity_view_mode.paragraph.home_fold5_gal_item
+    - field.storage.paragraph.field_view_mode
+    - paragraphs.paragraphs_type.gallery_item
+  module:
+    - view_mode_switch
+id: paragraph.gallery_item.field_view_mode
+field_name: field_view_mode
+entity_type: paragraph
+bundle: gallery_item
+label: 'View mode'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_view_modes:
+    business_fold_2_gallery_item: business_fold_2_gallery_item
+    home_fold5_gal_item: home_fold5_gal_item
+field_type: view_mode_switch

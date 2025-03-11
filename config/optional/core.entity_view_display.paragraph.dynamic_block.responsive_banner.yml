@@ -1,0 +1,38 @@
+uuid: 370a6b32-97d3-4290-bf8e-c4a189cfec13
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.responsive_banner
+    - field.field.paragraph.dynamic_block.field_block
+    - field.field.paragraph.dynamic_block.field_block_description
+    - field.field.paragraph.dynamic_block.field_block_heading
+    - field.field.paragraph.dynamic_block.field_block_sub_heading
+    - field.field.paragraph.dynamic_block.field_cta_button
+    - field.field.paragraph.dynamic_block.field_cta_button_alignment
+    - field.field.paragraph.dynamic_block.field_hide_this_block
+    - field.field.paragraph.dynamic_block.field_view_mode
+    - paragraphs.paragraphs_type.dynamic_block
+  module:
+    - view_mode_switch
+id: paragraph.dynamic_block.responsive_banner
+targetEntityType: paragraph
+bundle: dynamic_block
+mode: responsive_banner
+content:
+  field_view_mode:
+    type: view_mode_switch_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  field_block: true
+  field_block_description: true
+  field_block_heading: true
+  field_block_sub_heading: true
+  field_cta_button: true
+  field_cta_button_alignment: true
+  field_hide_this_block: true
+  search_api_excerpt: true

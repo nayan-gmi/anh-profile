@@ -1,0 +1,86 @@
+uuid: 4c8ec912-c773-4207-afd1-c2c713d11ee3
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_page_elements
+    - node.type.generic
+    - paragraphs.paragraphs_type.address
+    - paragraphs.paragraphs_type.advanced_content_block
+    - paragraphs.paragraphs_type.dynamic_block
+    - paragraphs.paragraphs_type.image_banner
+    - paragraphs.paragraphs_type.image_gallery
+    - paragraphs.paragraphs_type.repeatable_content_block
+    - paragraphs.paragraphs_type.simple_content_block
+    - paragraphs.paragraphs_type.smpl_cntnt_blk_reptr
+    - paragraphs.paragraphs_type.video_banner
+  module:
+    - entity_reference_revisions
+id: node.generic.field_page_elements
+field_name: field_page_elements
+entity_type: node
+bundle: generic
+label: Page elements
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      address: address
+      advanced_content_block: advanced_content_block
+      dynamic_block: dynamic_block
+      image_banner: image_banner
+      image_gallery: image_gallery
+      repeatable_content_block: repeatable_content_block
+      simple_content_block: simple_content_block
+      smpl_cntnt_blk_reptr: smpl_cntnt_blk_reptr
+      video_banner: video_banner
+    negate: 0
+    target_bundles_drag_drop:
+      address:
+        weight: 18
+        enabled: true
+      advanced_content_block:
+        weight: 19
+        enabled: true
+      business_address:
+        weight: 20
+        enabled: false
+      dynamic_block:
+        weight: 22
+        enabled: true
+      gallery_item:
+        weight: 23
+        enabled: false
+      image_banner:
+        weight: 24
+        enabled: true
+      image_gallery:
+        weight: 25
+        enabled: true
+      level_1_menu:
+        weight: 26
+        enabled: false
+      level_2_menu:
+        weight: 27
+        enabled: false
+      level_3_menu:
+        weight: 28
+        enabled: false
+      repeatable_content_block:
+        weight: 30
+        enabled: true
+      simple_content_block:
+        weight: 31
+        enabled: true
+      smpl_cntnt_blk_reptr:
+        weight: 32
+        enabled: true
+      video_banner:
+        weight: 34
+        enabled: true
+field_type: entity_reference_revisions

@@ -1,0 +1,26 @@
+uuid: 314abf28-2dac-43ee-9802-d89e7136bfd4
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.business_fold_5_address
+    - core.entity_view_mode.paragraph.contact_address
+    - field.storage.paragraph.field_view_mode
+    - paragraphs.paragraphs_type.address
+  module:
+    - view_mode_switch
+id: paragraph.address.field_view_mode
+field_name: field_view_mode
+entity_type: paragraph
+bundle: address
+label: 'View mode'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_view_modes:
+    business_fold_5_address: business_fold_5_address
+    contact_address: contact_address
+field_type: view_mode_switch

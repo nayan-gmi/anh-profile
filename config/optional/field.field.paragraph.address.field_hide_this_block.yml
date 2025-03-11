@@ -1,0 +1,21 @@
+uuid: b44b7518-0393-4b01-8ae7-6e0743cd3fc3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_hide_this_block
+    - paragraphs.paragraphs_type.address
+id: paragraph.address.field_hide_this_block
+field_name: field_hide_this_block
+entity_type: paragraph
+bundle: address
+label: 'Hide this block'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

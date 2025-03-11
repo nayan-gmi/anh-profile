@@ -1,0 +1,11 @@
+uuid: f9ba040a-aefa-4186-b854-90c9d66d5462
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.career_card
+label: 'Career card'
+description: ''
+targetEntityType: paragraph
+cache: true

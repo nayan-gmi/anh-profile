@@ -1,0 +1,24 @@
+uuid: 2118636b-f219-4238-aaa2-908efe98738c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_block_description
+    - filter.format.full_html
+    - paragraphs.paragraphs_type.image_gallery
+  module:
+    - text
+id: paragraph.image_gallery.field_block_description
+field_name: field_block_description
+entity_type: paragraph
+bundle: image_gallery
+label: 'Block Description'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - full_html
+field_type: text_long

@@ -1,0 +1,11 @@
+uuid: b3646110-5444-45cc-bba7-f61014229b7c
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.business_fold_3_project_slider
+label: 'Business - Fold 3 - Project Slider'
+description: ''
+targetEntityType: paragraph
+cache: true

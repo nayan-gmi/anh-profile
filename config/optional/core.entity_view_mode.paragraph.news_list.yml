@@ -1,0 +1,11 @@
+uuid: ef5d34e0-ab85-447c-bc87-091869d5101d
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.news_list
+label: 'News List'
+description: ''
+targetEntityType: paragraph
+cache: true

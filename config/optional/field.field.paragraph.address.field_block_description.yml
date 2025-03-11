@@ -1,0 +1,24 @@
+uuid: a011ee50-7a02-4a16-bf17-03b80ec8b8f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_block_description
+    - filter.format.full_html
+    - paragraphs.paragraphs_type.address
+  module:
+    - text
+id: paragraph.address.field_block_description
+field_name: field_block_description
+entity_type: paragraph
+bundle: address
+label: Address
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - full_html
+field_type: text_long

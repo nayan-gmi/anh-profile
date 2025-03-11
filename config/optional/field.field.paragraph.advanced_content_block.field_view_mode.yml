@@ -1,0 +1,24 @@
+uuid: 89dec17d-7014-4c76-bdff-db11d6d5221c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.home_fold2
+    - field.storage.paragraph.field_view_mode
+    - paragraphs.paragraphs_type.advanced_content_block
+  module:
+    - view_mode_switch
+id: paragraph.advanced_content_block.field_view_mode
+field_name: field_view_mode
+entity_type: paragraph
+bundle: advanced_content_block
+label: 'View mode'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_view_modes:
+    home_fold2: home_fold2
+field_type: view_mode_switch

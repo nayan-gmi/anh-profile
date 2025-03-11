@@ -1,0 +1,38 @@
+uuid: efacdfbf-93e9-4c17-894f-9e4c85735961
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_bg_img_for_mob
+    - paragraphs.paragraphs_type.advanced_content_block
+  module:
+    - image
+id: paragraph.advanced_content_block.field_bg_img_for_mob
+field_name: field_bg_img_for_mob
+entity_type: paragraph
+bundle: advanced_content_block
+label: 'Background image (For mobile)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg webp svg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

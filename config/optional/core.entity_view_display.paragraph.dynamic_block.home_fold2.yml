@@ -1,0 +1,85 @@
+uuid: 6c7450d1-7f6b-46f9-94fd-c1023829c088
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.home_fold2
+    - field.field.paragraph.dynamic_block.field_block
+    - field.field.paragraph.dynamic_block.field_block_description
+    - field.field.paragraph.dynamic_block.field_block_heading
+    - field.field.paragraph.dynamic_block.field_block_sub_heading
+    - field.field.paragraph.dynamic_block.field_cta_button
+    - field.field.paragraph.dynamic_block.field_cta_button_alignment
+    - field.field.paragraph.dynamic_block.field_hide_this_block
+    - field.field.paragraph.dynamic_block.field_view_mode
+    - paragraphs.paragraphs_type.dynamic_block
+  module:
+    - link
+    - options
+    - text
+    - view_mode_switch
+id: paragraph.dynamic_block.home_fold2
+targetEntityType: paragraph
+bundle: dynamic_block
+mode: home_fold2
+content:
+  field_block_description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_block_heading:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_block_sub_heading:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_cta_button:
+    type: link
+    label: above
+    settings:
+      trim_length: 150
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_cta_button_alignment:
+    type: list_key
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_hide_this_block:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_view_mode:
+    type: view_mode_switch_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden:
+  field_block: true
+  search_api_excerpt: true

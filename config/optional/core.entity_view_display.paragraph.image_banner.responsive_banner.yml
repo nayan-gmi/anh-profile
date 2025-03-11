@@ -1,0 +1,64 @@
+uuid: c2cf825c-7af5-4d1a-8db1-5bef3a5a9f79
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.responsive_banner
+    - field.field.paragraph.image_banner.field_block_heading
+    - field.field.paragraph.image_banner.field_block_sub_heading
+    - field.field.paragraph.image_banner.field_desktop_banner
+    - field.field.paragraph.image_banner.field_mobile_banner
+    - field.field.paragraph.image_banner.field_view_mode
+    - field.field.paragraph.image_banner.field_wrapper_extra_class
+    - image.style.webp
+    - paragraphs.paragraphs_type.image_banner
+  module:
+    - svg_image
+    - view_mode_switch
+id: paragraph.image_banner.responsive_banner
+targetEntityType: paragraph
+bundle: image_banner
+mode: responsive_banner
+content:
+  field_desktop_banner:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: webp
+      image_loading:
+        attribute: lazy
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_mobile_banner:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: webp
+      image_loading:
+        attribute: lazy
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_view_mode:
+    type: view_mode_switch_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  field_block_heading: true
+  field_block_sub_heading: true
+  field_wrapper_extra_class: true
+  search_api_excerpt: true

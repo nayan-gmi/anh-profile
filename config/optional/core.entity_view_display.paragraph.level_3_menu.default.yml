@@ -1,0 +1,31 @@
+uuid: 928d140a-ac6e-46b3-9118-704722ad85b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.level_3_menu.field_level_3_menu_link
+    - field.field.paragraph.level_3_menu.field_level_3_menu_text
+    - paragraphs.paragraphs_type.level_3_menu
+id: paragraph.level_3_menu.default
+targetEntityType: paragraph
+bundle: level_3_menu
+mode: default
+content:
+  field_level_3_menu_link:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_level_3_menu_text:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  search_api_excerpt: true

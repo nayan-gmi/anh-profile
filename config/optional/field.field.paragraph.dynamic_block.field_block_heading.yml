@@ -1,0 +1,24 @@
+uuid: 175967e4-c3bc-4a6c-b0e6-00a9425f3206
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_block_heading
+    - filter.format.full_html
+    - paragraphs.paragraphs_type.dynamic_block
+  module:
+    - text
+id: paragraph.dynamic_block.field_block_heading
+field_name: field_block_heading
+entity_type: paragraph
+bundle: dynamic_block
+label: 'Block Heading'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - full_html
+field_type: text

@@ -1,0 +1,11 @@
+uuid: 7be55662-fe3b-4777-9ae0-3eca2f04cad5
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.homepage_fold4_map
+label: 'Homepage Fold4 - Map'
+description: ''
+targetEntityType: paragraph
+cache: true

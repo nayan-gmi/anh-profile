@@ -1,0 +1,69 @@
+uuid: 610579c0-7a15-4560-8068-78435ede1818
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.home_fold5_gal_item
+    - field.field.paragraph.gallery_item.field_hide_this_block
+    - field.field.paragraph.gallery_item.field_image
+    - field.field.paragraph.gallery_item.field_image_for_mobile
+    - field.field.paragraph.gallery_item.field_view_mode
+    - image.style.webp
+    - paragraphs.paragraphs_type.gallery_item
+  module:
+    - svg_image
+    - view_mode_switch
+id: paragraph.gallery_item.home_fold5_gal_item
+targetEntityType: paragraph
+bundle: gallery_item
+mode: home_fold5_gal_item
+content:
+  field_hide_this_block:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: webp
+      image_loading:
+        attribute: lazy
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_image_for_mobile:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: webp
+      image_loading:
+        attribute: lazy
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_view_mode:
+    type: view_mode_switch_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  search_api_excerpt: true

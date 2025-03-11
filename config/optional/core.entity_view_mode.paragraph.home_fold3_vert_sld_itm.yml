@@ -1,0 +1,11 @@
+uuid: 373b8320-4837-463e-b06a-5b4e430d5cbd
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.home_fold3_vert_sld_itm
+label: 'Homepage Fold3 - Vertical Slide Item'
+description: ''
+targetEntityType: paragraph
+cache: true

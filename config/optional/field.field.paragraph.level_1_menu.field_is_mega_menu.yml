@@ -1,0 +1,21 @@
+uuid: ab429ea6-5704-432c-a5ab-0957d70d91ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_is_mega_menu
+    - paragraphs.paragraphs_type.level_1_menu
+id: paragraph.level_1_menu.field_is_mega_menu
+field_name: field_is_mega_menu
+entity_type: paragraph
+bundle: level_1_menu
+label: 'Is Mega Menu?'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

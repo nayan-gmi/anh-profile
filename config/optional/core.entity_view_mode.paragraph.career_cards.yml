@@ -1,0 +1,11 @@
+uuid: 7d891860-b935-4dc2-b6a0-3fbf9aa1f7e6
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.career_cards
+label: 'Career cards'
+description: ''
+targetEntityType: paragraph
+cache: true

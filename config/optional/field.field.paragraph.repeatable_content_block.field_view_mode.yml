@@ -1,0 +1,26 @@
+uuid: a8ebf63f-576d-42a9-a019-a594b71cd2fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.hero_section_with_cards
+    - core.entity_view_mode.paragraph.home_fold3
+    - field.storage.paragraph.field_view_mode
+    - paragraphs.paragraphs_type.repeatable_content_block
+  module:
+    - view_mode_switch
+id: paragraph.repeatable_content_block.field_view_mode
+field_name: field_view_mode
+entity_type: paragraph
+bundle: repeatable_content_block
+label: 'View mode'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_view_modes:
+    hero_section_with_cards: hero_section_with_cards
+    home_fold3: home_fold3
+field_type: view_mode_switch

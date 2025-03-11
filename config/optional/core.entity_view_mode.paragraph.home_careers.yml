@@ -1,0 +1,11 @@
+uuid: 7ea5a8cb-2e90-4639-bfbd-eafd5b1bdd00
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.home_careers
+label: 'Homepage Careers'
+description: ''
+targetEntityType: paragraph
+cache: true

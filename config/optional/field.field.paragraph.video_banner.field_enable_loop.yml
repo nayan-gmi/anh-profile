@@ -1,0 +1,21 @@
+uuid: bc6cc989-e13b-4476-b4bc-65fef7cdfc6f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_enable_loop
+    - paragraphs.paragraphs_type.video_banner
+id: paragraph.video_banner.field_enable_loop
+field_name: field_enable_loop
+entity_type: paragraph
+bundle: video_banner
+label: 'Enable loop'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

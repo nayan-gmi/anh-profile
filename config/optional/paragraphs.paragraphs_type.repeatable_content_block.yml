@@ -1,0 +1,10 @@
+uuid: e7b3cf7f-3c35-458a-9500-4caea024568a
+langcode: en
+status: true
+dependencies: {  }
+id: repeatable_content_block
+label: 'Repeatable content block'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

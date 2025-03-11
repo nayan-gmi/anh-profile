@@ -1,0 +1,39 @@
+uuid: 2be943b8-d96c-440a-b088-add2bb5bea2f
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.business_fold_5_address
+    - field.field.paragraph.business_address.field_address
+    - field.field.paragraph.business_address.field_hide_this_block
+    - field.field.paragraph.business_address.field_info
+    - field.field.paragraph.business_address.field_view_mode
+    - paragraphs.paragraphs_type.business_address
+  module:
+    - view_mode_switch
+id: paragraph.business_address.business_fold_5_address
+targetEntityType: paragraph
+bundle: business_address
+mode: business_fold_5_address
+content:
+  field_hide_this_block:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_view_mode:
+    type: view_mode_switch_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 7
+    region: content
+hidden:
+  field_address: true
+  field_info: true
+  search_api_excerpt: true

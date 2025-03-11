@@ -1,0 +1,24 @@
+uuid: c06f8519-ab74-4dbd-8216-a04661ab2cf6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_block_sub_heading
+    - filter.format.full_html
+    - paragraphs.paragraphs_type.advanced_content_block
+  module:
+    - text
+id: paragraph.advanced_content_block.field_block_sub_heading
+field_name: field_block_sub_heading
+entity_type: paragraph
+bundle: advanced_content_block
+label: 'Block Sub Heading'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - full_html
+field_type: text

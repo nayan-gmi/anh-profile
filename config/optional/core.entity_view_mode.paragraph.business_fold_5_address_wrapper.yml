@@ -1,0 +1,11 @@
+uuid: f073d88c-fb86-4d12-9f6b-c560fd63603e
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.business_fold_5_address_wrapper
+label: 'Business - Fold 5 - Address Wrapper'
+description: ''
+targetEntityType: paragraph
+cache: true

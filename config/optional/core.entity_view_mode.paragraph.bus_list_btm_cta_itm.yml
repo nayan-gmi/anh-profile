@@ -1,0 +1,11 @@
+uuid: 590a9ed4-1c15-4179-9599-17f74248e7cc
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.bus_list_btm_cta_itm
+label: 'Business List - Bottom CTA Item'
+description: ''
+targetEntityType: paragraph
+cache: true

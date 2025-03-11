@@ -1,0 +1,11 @@
+uuid: 75f2eab1-e1fa-4321-9a99-488ab096e5c3
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.home_fold3_vert_sldr_up
+label: 'Homepage Fold3 - Vertical Slider Upwards'
+description: ''
+targetEntityType: paragraph
+cache: true

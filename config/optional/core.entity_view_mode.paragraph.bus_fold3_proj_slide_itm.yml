@@ -1,0 +1,11 @@
+uuid: a622e40e-eb4d-4313-8e2b-130db037ad02
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.bus_fold3_proj_slide_itm
+label: 'Business - Fold 3 - Project Slide Item'
+description: ''
+targetEntityType: paragraph
+cache: true

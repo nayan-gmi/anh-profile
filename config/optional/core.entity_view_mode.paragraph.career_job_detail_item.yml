@@ -1,0 +1,11 @@
+uuid: f3136b21-fc01-48c8-a872-c01de4070d7a
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.career_job_detail_item
+label: 'Career - Job detail item'
+description: ''
+targetEntityType: paragraph
+cache: true

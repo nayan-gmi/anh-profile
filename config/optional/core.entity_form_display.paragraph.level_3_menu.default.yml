@@ -1,0 +1,32 @@
+uuid: b4153ece-b3c7-46cf-b573-fc126dc6f8af
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.level_3_menu.field_level_3_menu_link
+    - field.field.paragraph.level_3_menu.field_level_3_menu_text
+    - paragraphs.paragraphs_type.level_3_menu
+id: paragraph.level_3_menu.default
+targetEntityType: paragraph
+bundle: level_3_menu
+mode: default
+content:
+  field_level_3_menu_link:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_level_3_menu_text:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

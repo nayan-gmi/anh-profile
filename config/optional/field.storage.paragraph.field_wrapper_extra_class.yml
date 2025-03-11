@@ -1,0 +1,21 @@
+uuid: b6a27b06-7ba0-4e53-abec-2f83e90a0481
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_wrapper_extra_class
+field_name: field_wrapper_extra_class
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

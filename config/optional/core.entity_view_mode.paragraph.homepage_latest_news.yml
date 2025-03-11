@@ -1,0 +1,11 @@
+uuid: 6d7bfd90-3016-46da-8c4a-dccb729be314
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.homepage_latest_news
+label: 'Homepage Latest News'
+description: ''
+targetEntityType: paragraph
+cache: true

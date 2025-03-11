@@ -1,0 +1,19 @@
+uuid: 9398375e-42c9-435f-ba09-b16c44c9a596
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_level_1_menu_link
+    - paragraphs.paragraphs_type.level_1_menu
+id: paragraph.level_1_menu.field_level_1_menu_link
+field_name: field_level_1_menu_link
+entity_type: paragraph
+bundle: level_1_menu
+label: 'Level 1 Menu Link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

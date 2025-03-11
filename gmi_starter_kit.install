@@ -1,0 +1,27 @@
+<?php
+
+use Drupal\Core\Config\FileStorage;
+
+/**
+ * Implements hook_install().
+ *
+ * Perform actions to set up the site for this profile.
+ *
+ * @see system_install()
+ */
+function gmi_starter_kit_install(): void
+{
+    // First, do everything in standard profile.
+    include_once DRUPAL_ROOT . '/core/profiles/standard/standard.install';
+    standard_install();
+    gmi_init();
+}
+
+function gmi_init(): void
+{
+    \Drupal::configFactory()
+        ->getEditable('system.theme')
+        ->set('default', 'olivero')
+        ->set('admin', 'claro')
+        ->save(TRUE);
+}

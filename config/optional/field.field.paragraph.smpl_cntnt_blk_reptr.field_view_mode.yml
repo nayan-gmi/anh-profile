@@ -1,0 +1,42 @@
+uuid: 97fead04-4545-4f13-8ceb-b2b5cabfa37f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.awards_slider
+    - core.entity_view_mode.paragraph.business_fold_3_project_slider
+    - core.entity_view_mode.paragraph.business_fold_4_brand_list
+    - core.entity_view_mode.paragraph.business_fold_6_stores_list
+    - core.entity_view_mode.paragraph.business_list_bottom_cta
+    - core.entity_view_mode.paragraph.career_cards
+    - core.entity_view_mode.paragraph.career_job_detail
+    - core.entity_view_mode.paragraph.home_fold3_vert_sldr_down
+    - core.entity_view_mode.paragraph.home_fold3_vert_sldr_up
+    - core.entity_view_mode.paragraph.split_content
+    - field.storage.paragraph.field_view_mode
+    - paragraphs.paragraphs_type.smpl_cntnt_blk_reptr
+  module:
+    - view_mode_switch
+id: paragraph.smpl_cntnt_blk_reptr.field_view_mode
+field_name: field_view_mode
+entity_type: paragraph
+bundle: smpl_cntnt_blk_reptr
+label: 'View mode'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_view_modes:
+    awards_slider: awards_slider
+    business_fold_3_project_slider: business_fold_3_project_slider
+    business_fold_4_brand_list: business_fold_4_brand_list
+    business_fold_6_stores_list: business_fold_6_stores_list
+    business_list_bottom_cta: business_list_bottom_cta
+    career_cards: career_cards
+    career_job_detail: career_job_detail
+    home_fold3_vert_sldr_down: home_fold3_vert_sldr_down
+    home_fold3_vert_sldr_up: home_fold3_vert_sldr_up
+    split_content: split_content
+field_type: view_mode_switch

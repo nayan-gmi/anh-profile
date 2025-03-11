@@ -1,0 +1,11 @@
+uuid: 2b2856e9-9432-4e9d-9fc3-042754e1622e
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.business_fold_5_address
+label: 'Business - Fold 5 - Address'
+description: ''
+targetEntityType: paragraph
+cache: true

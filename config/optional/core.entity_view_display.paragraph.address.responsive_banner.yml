@@ -1,0 +1,38 @@
+uuid: 7e1f3b88-c1c5-4ba9-a2f7-b521cfe1e5cf
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.responsive_banner
+    - field.field.paragraph.address.field_block_description
+    - field.field.paragraph.address.field_block_heading
+    - field.field.paragraph.address.field_email
+    - field.field.paragraph.address.field_fax
+    - field.field.paragraph.address.field_hide_this_block
+    - field.field.paragraph.address.field_phone
+    - field.field.paragraph.address.field_view_mode
+    - field.field.paragraph.address.field_website_url
+    - paragraphs.paragraphs_type.address
+  module:
+    - view_mode_switch
+id: paragraph.address.responsive_banner
+targetEntityType: paragraph
+bundle: address
+mode: responsive_banner
+content:
+  field_view_mode:
+    type: view_mode_switch_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  field_block_description: true
+  field_block_heading: true
+  field_email: true
+  field_fax: true
+  field_hide_this_block: true
+  field_phone: true
+  field_website_url: true
+  search_api_excerpt: true

@@ -1,0 +1,23 @@
+uuid: bdc0ebb7-f701-4c60-be66-4f072f25a6c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_cta_button
+    - paragraphs.paragraphs_type.smpl_cntnt_blk_reptr
+  module:
+    - link
+id: paragraph.smpl_cntnt_blk_reptr.field_cta_button
+field_name: field_cta_button
+entity_type: paragraph
+bundle: smpl_cntnt_blk_reptr
+label: 'CTA Button'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 2
+  link_type: 17
+field_type: link

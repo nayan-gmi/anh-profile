@@ -1,0 +1,11 @@
+uuid: fc3ce71d-023e-4aba-8e49-876467695d2c
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.responsive_banner
+label: 'Responsive banner'
+description: ''
+targetEntityType: paragraph
+cache: true
