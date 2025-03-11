@@ -63,3 +63,12 @@ function gmi_starter_kit_theme($existing, $type, $theme, $path): array
 
     return $templates;
 }
+
+
+
+function gmi_starter_kit_preprocess(&$variables, $hook)
+{
+    $path_resolver = \Drupal::service('extension.path.resolver');
+    $profile_base_path = $path_resolver->getPath('profile', 'gmi_starter_kit');
+    $variables['base_path'] = '/' . $profile_base_path;
+}

@@ -38,7 +38,6 @@
  * @ingroup themeable
  */
 #}
-
 {% block paragraph %}
   {% block content %}
     {% if paragraph.field_hide_this_block.value != '1' %}
@@ -54,13 +53,13 @@
           <div class="anp-phone">
             {% if content.field_phone is not empty %}
               <div class="anp-phone-left">
-                <img src="/profiles/custom/gmi_starter_kit/assets/images/phone-call.svg" alt="Phone" />
+                <img src="{{ base_path }}/assets/images/phone-call.svg" alt="Phone" />
                 <a href="tel:{{ paragraph.field_phone.value }}">{{ paragraph.field_phone.value }}</a>
               </div>
             {% endif %}
             {% if content.field_fax is not empty %}
             <div class="anp-phone-left">
-              <img src="/profiles/custom/gmi_starter_kit/assets/images/fax.svg" alt="Fax" />
+              <img src="{{ base_path }}/assets/images/fax.svg" alt="Fax" />
               <a href="tel:{{ paragraph.field_fax.value }}">{{ paragraph.field_fax.value }}</a>
             </div>
             {% endif %}

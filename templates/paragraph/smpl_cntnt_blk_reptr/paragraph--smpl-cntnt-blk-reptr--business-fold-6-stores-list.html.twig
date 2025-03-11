@@ -44,8 +44,8 @@
     {% if paragraph.field_hide_this_block.value != '1' %}
       <section class="our-stores-inner">
         <div class="blue-wavy-pattern3">
-          <img class="banner-for-desktop" src="/profiles/custom/gmi_starter_kit/assets/images/blue-wavy-background.svg" alt="" />
-          <img class="banner-for-mobile" src="/profiles/custom/gmi_starter_kit/assets/images/blue-wavy-background-mobile.svg" alt="" />
+          <img class="banner-for-desktop" src="{{ base_path }}/assets/images/blue-wavy-background.svg" alt="" />
+          <img class="banner-for-mobile" src="{{ base_path }}/assets/images/blue-wavy-background-mobile.svg" alt="" />
         </div>
         <div class="container">
           <h2>{{ content.field_block_heading }}</h2>
@@ -71,7 +71,7 @@
                       <h4>{{ item['#paragraph'].field_block_heading.value }}</h4>
                       <a href="{{ linkURL }}" target="_blank">{{ linkText }}</a>
                     </div>
-                    <a href="{{ linkURL }}" target="_blank"><img src="/profiles/custom/gmi_starter_kit/assets/images/map-pin-icon.svg" alt="" /></a>
+                    <a href="{{ linkURL }}" target="_blank"><img src="{{ base_path }}/assets/images/map-pin-icon.svg" alt="" /></a>
                    
                   </div>
                 </div>
